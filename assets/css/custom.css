@@ -1,0 +1,22 @@
+.navbar-brand img {
+    width: 135px;
+}
+.main-nav {
+    box-shadow: 1px 6px 12px rgb(0 0 0 / 0.09);
+}
+.collection-area {
+    padding: 100px 0;
+    background: #f5f5f5;
+}
+.footer-item .footer-logo a.cmn-btn {
+    display: inline-block;
+}
+.footer-item .footer-service ul.foot-oh li {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+footer .subscribe-item .newsletter-form .form-control {
+    box-shadow: 2px 2px 12px rgb(0 0 0 / 17%);
+}
