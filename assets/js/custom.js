@@ -3,7 +3,7 @@ jQuery(function ($) {
 
     // Start Menu JS
 	$(window).on('scroll', function() {
-		if ($(this).scrollTop() > 50) {
+		if ($(this).scrollTop() > 200) {
 			$('.main-nav').addClass('menu-shrink');
 		} else {
 			$('.main-nav').removeClass('menu-shrink');

@@ -30,6 +30,12 @@ This files table contents are outlined below>>>>>
 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap");
+
+:root{
+  --theme-color: #7cb2a9;
+  --theme-fade:#a3bdb9;
+}
+
 /*-- Default CSS --*/
 body {
   font-family: "Poppins", sans-serif;
@@ -138,10 +144,10 @@ button:focus {
 }
 
 .navbar-area .side-nav .nav-tel {
-  color: #0b0320;
+  color: #ffffff;
   border-radius: 50px;
   padding: 12px 15px 11px 15px;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   font-size: 14px;
   position: relative;
   top: -6px;
@@ -174,11 +180,11 @@ button:focus {
 }
 
 .main-nav nav .navbar-nav .nav-link:focus, .main-nav nav .navbar-nav .nav-link:hover {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .main-nav nav .navbar-nav .nav-item:hover a {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .main-nav nav .navbar-nav .nav-item a {
@@ -190,13 +196,13 @@ button:focus {
 }
 
 .main-nav nav .navbar-nav .nav-item a:hover, .main-nav nav .navbar-nav .nav-item a:focus, .main-nav nav .navbar-nav .nav-item a.active {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .main-nav nav .navbar-nav .nav-item a:hover i {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .main-nav nav .navbar-nav .nav-item a i {
@@ -232,7 +238,7 @@ button:focus {
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
-  color: #ffbe00;
+  color: var(--theme-color);
   text-transform: unset;
 }
 
@@ -243,7 +249,7 @@ button:focus {
   height: 1px;
   left: 0;
   top: 20px;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   opacity: 0;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
@@ -258,7 +264,7 @@ button:focus {
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .main-nav .dropdown-toggle::after {
@@ -364,7 +370,7 @@ button:focus {
   font-size: 15px;
   color: #0b0320;
   border-radius: 50px;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   padding: 12px 32px;
   position: absolute;
   top: 10px;
@@ -387,7 +393,7 @@ button:focus {
 
 .banner-area .banner-slider .owl-prev {
   font-size: 55px !important;
-  color: #ffbe00 !important;
+  color: var(--theme-color) !important;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
@@ -399,7 +405,7 @@ button:focus {
 
 .banner-area .banner-slider .owl-next {
   font-size: 55px !important;
-  color: #ffbe00 !important;
+  color: var(--theme-color) !important;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
@@ -420,7 +426,7 @@ button:focus {
 .section-title .sub-title {
   font-weight: 500;
   font-size: 16px;
-  color: #ffbe00;
+  color: var(--theme-color);
   display: block;
   margin-bottom: 8px;
 }
@@ -515,7 +521,7 @@ button:focus {
   text-align: center;
   font-size: 23px;
   color: #ffffff;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   position: absolute;
   right: 7px;
   top: -7px;
@@ -541,7 +547,7 @@ button:focus {
 }
 
 .service-area .service-item:hover {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .service-area .service-item:hover .service-shape {
@@ -598,7 +604,7 @@ button:focus {
 }
 
 .service-area .service-slider .center {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   border-radius: 25px;
 }
 
@@ -632,7 +638,7 @@ button:focus {
 }
 
 .service-area .service-slider .owl-prev:hover {
-  background-color: #ffbe00 !important;
+  background-color: var(--theme-color) !important;
 }
 
 .service-area .service-slider .owl-next {
@@ -653,7 +659,7 @@ button:focus {
 }
 
 .service-area .service-slider .owl-next:hover {
-  background-color: #ffbe00 !important;
+  background-color: var(--theme-color) !important;
 }
 
 .service-area .service-slider:hover .owl-prev {
@@ -757,8 +763,8 @@ button:focus {
 .cmn-btn {
   font-weight: 500;
   font-size: 15px;
-  color: #0b0320;
-  background-color: #ffbe00;
+  color: #ffffff;
+  background-color: var(--theme-color);
   padding: 12px 30px;
   border-radius: 50px;
   display: inline-block;
@@ -822,8 +828,8 @@ button:focus {
 }
 
 .collection-area .more-collection a:hover {
-  color: #ffbe00;
-  border-bottom: 1px solid #ffbe00;
+  color: var(--theme-color);
+  border-bottom: 1px solid var(--theme-color);
 }
 
 .collection-item {
@@ -909,7 +915,7 @@ button:focus {
 
 .collection-item .collection-top .add-cart a i {
   display: inline-block;
-  color: #ffbe00;
+  color: var(--theme-color);
   font-size: 22px;
   position: relative;
   top: 4px;
@@ -976,7 +982,7 @@ button:focus {
   height: 35px;
   line-height: 35px;
   color: #ffffff;
-  background-color: #fbdb7d;
+  background-color: var(--theme-fade);
   display: inline-block;
   text-align: center;
   cursor: pointer;
@@ -989,7 +995,7 @@ button:focus {
 }
 
 .collection-item .collection-bottom ul li .minus:hover, .collection-item .collection-bottom ul li .plus:hover {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .collection-item .collection-bottom ul li .form-control {
@@ -999,7 +1005,7 @@ button:focus {
   font-size: 20px;
   font-weight: 500;
   border: 0;
-  color: #ffbe00;
+  color: var(--theme-color);
   display: inline-block;
   vertical-align: middle;
   margin-left: -4px;
@@ -1042,7 +1048,7 @@ button:focus {
 
 .sorting-menu ul li:hover, .sorting-menu ul li.active {
   color: #ffffff;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 /*-- End Collection --*/
@@ -1060,11 +1066,11 @@ button:focus {
   position: relative;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
-  border: 1px solid #ffbe00;
+  border: 1px solid var(--theme-color);
 }
 
 .menu-item:hover, .menu-item.active {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   -webkit-transform: translate(0, -10px);
           transform: translate(0, -10px);
 }
@@ -1177,7 +1183,7 @@ button:focus {
   height: 45px;
   right: 0;
   top: -6px;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .reservation-area .reservation-item ul li:last-child .cmn-btn {
@@ -1311,7 +1317,7 @@ button:focus {
 }
 
 .chef-item .chef-bottom ul li a:hover {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 /*-- End Chef --*/
@@ -1329,7 +1335,7 @@ button:focus {
 }
 
 .review-area .slick-prev i {
-  color: #ffbe00;
+  color: var(--theme-color);
   display: block;
   font-size: 35px;
   position: absolute;
@@ -1352,7 +1358,7 @@ button:focus {
 }
 
 .review-area .slick-next i {
-  color: #ffbe00;
+  color: var(--theme-color);
   display: block;
   font-size: 35px;
   position: absolute;
@@ -1456,7 +1462,7 @@ button:focus {
   display: inline-block;
   font-size: 14px;
   color: #0b0320;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   padding: 5px 12px;
   border-radius: 6px;
   position: absolute;
@@ -1488,7 +1494,7 @@ button:focus {
 }
 
 .blog-item .blog-bottom h3 a:hover {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .blog-item .blog-bottom p {
@@ -1512,8 +1518,8 @@ button:focus {
 }
 
 .blog-area .read-blog-btn:hover {
-  color: #ffbe00;
-  border-bottom: 1px solid #ffbe00;
+  color: var(--theme-color);
+  border-bottom: 1px solid var(--theme-color);
 }
 
 /*-- End Blog --*/
@@ -1625,7 +1631,7 @@ button:focus {
 }
 
 .subscribe-item .social-link ul li a:hover {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .subscribe-img {
@@ -1673,7 +1679,7 @@ button:focus {
 }
 
 .footer-item .footer-logo ul li a:hover {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .footer-item .footer-service h3 {
@@ -1713,7 +1719,7 @@ button:focus {
 
 .footer-item .footer-service ul li a:hover {
   margin-left: 10px;
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .footer-item .footer-service ul li:last-child {
@@ -1741,7 +1747,7 @@ button:focus {
 
 .copyright-area .copyright-item p a {
   display: inline-block;
-  color: #ffbe00;
+  color: var(--theme-color);
   font-weight: 500;
 }
 
@@ -1789,7 +1795,7 @@ button:focus {
   width: 42px;
   height: 42px;
   line-height: 48px;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   border-radius: 50%;
   padding: 0;
   font-size: 28px;
@@ -1822,13 +1828,13 @@ button:focus {
 }
 
 .main-nav-two.menu-shrink nav .navbar-nav .nav-item a:focus, .main-nav-two.menu-shrink nav .navbar-nav .nav-item a:hover, .main-nav-two.menu-shrink nav .navbar-nav .nav-item a.active {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .main-nav-two.menu-shrink nav .side-nav .nav-cart {
-  border: 1px solid #ffbe00;
+  border: 1px solid var(--theme-color);
   color: #0b0320;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .main-nav-two.menu-shrink nav .side-nav .nav-cart:hover {
@@ -1838,7 +1844,7 @@ button:focus {
 }
 
 .main-nav-two.menu-shrink nav .side-nav .nav-cart span {
-  color: #ffbe00;
+  color: var(--theme-color);
   background-color: #0b0320;
 }
 
@@ -2191,7 +2197,7 @@ button:focus {
 
 .download-area .download-content ul li:hover {
   margin-left: 15px;
-  border: 1px solid #ffbe00;
+  border: 1px solid var(--theme-color);
 }
 
 .download-area .download-content ul li:last-child {
@@ -2204,7 +2210,7 @@ button:focus {
   line-height: 50px;
   border-radius: 50%;
   text-align: center;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   color: #0b0320;
   display: inline-block;
   font-weight: 600;
@@ -2302,7 +2308,7 @@ button:focus {
 }
 
 .join-area .join-content .section-title h2 {
-  color: #ffbe00;
+  color: var(--theme-color);
   margin-bottom: 22px;
 }
 
@@ -2312,7 +2318,7 @@ button:focus {
 }
 
 .join-area .join-content .cmn-btn {
-  border: 1px solid #ffbe00;
+  border: 1px solid var(--theme-color);
 }
 
 .join-area .join-content .cmn-btn:hover {
@@ -2353,7 +2359,7 @@ button:focus {
 }
 
 .review-area-two .review-item .section-title h2 {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .review-area-two .review-item .section-title p {
@@ -2361,7 +2367,7 @@ button:focus {
 }
 
 .review-area-two .review-item .slider-for h3 {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .review-area-two .review-item .slider-for p {
@@ -2427,7 +2433,7 @@ button:focus {
 }
 
 .footer-area-two .footer-item .footer-service h3 {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .footer-area-two .footer-item .footer-service ul li {
@@ -2439,7 +2445,7 @@ button:focus {
 }
 
 .footer-area-two .footer-item .footer-service ul li a:hover {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 /*-- End Footer --*/
@@ -2640,11 +2646,11 @@ button:focus {
 }
 
 .about-area-two .about-img .video-wrap a:hover:before {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .about-area-two .about-img .video-wrap a:hover:after {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .about-area-two .about-content {
@@ -2850,7 +2856,7 @@ button:focus {
   font-size: 18px;
   border-radius: 50%;
   color: #0b0320;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   position: absolute;
@@ -2899,7 +2905,7 @@ button:focus {
   left: 0;
   top: 0;
   border-radius: 50px;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .page-title-item h2 {
@@ -2916,7 +2922,7 @@ button:focus {
 .page-title-item ul li {
   list-style-type: none;
   display: inline-block;
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .page-title-item ul li i {
@@ -2933,7 +2939,7 @@ button:focus {
 }
 
 .page-title-item ul li a:hover {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 /*-- End Page Title --*/
@@ -2984,7 +2990,7 @@ button:focus {
   -webkit-transform: translate(0, 10px);
           transform: translate(0, 10px);
   color: #ffffff;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .story-area .story-item img {
@@ -3132,7 +3138,7 @@ button:focus {
 /*-- End Download --*/
 /*-- Service --*/
 .service-area-four .service-item {
-  border: 1px solid #ffbe00;
+  border: 1px solid var(--theme-color);
   margin-bottom: 30px;
 }
 
@@ -3152,7 +3158,7 @@ button:focus {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   -webkit-clip-path: polygon(70% 0, 100% 0%, 100% 100%, 40% 100%);
           clip-path: polygon(70% 0, 100% 0%, 100% 100%, 40% 100%);
 }
@@ -3231,7 +3237,7 @@ button:focus {
 
 .service-details-area .service-details-item .service-details-more ul li:hover a {
   color: #ffffff;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .service-details-area .service-details-item .service-details-more ul li a {
@@ -3274,7 +3280,7 @@ button:focus {
 }
 
 .service-details-area .service-details-item .service-details-order .offer-off {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -3394,8 +3400,8 @@ button:focus {
 }
 
 .blog-details-nav ul li a:hover {
-  border: 1px solid #ffbe00;
-  background-color: #ffbe00;
+  border: 1px solid var(--theme-color);
+  background-color: var(--theme-color);
   color: #0b0320;
 }
 
@@ -3412,7 +3418,7 @@ button:focus {
 }
 
 .cart-wrap .table .thead {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .cart-wrap .table .thead tr .table-head {
@@ -3438,7 +3444,7 @@ button:focus {
 }
 
 .cart-wrap .table tr td a:hover {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .cart-wrap .table td, .cart-wrap .table th {
@@ -3459,7 +3465,7 @@ button:focus {
 }
 
 .cart-wrap .shop-back a:hover {
-  color: #ffbe00;
+  color: var(--theme-color);
 }
 
 .cart-wrap .total-shopping h2 {
@@ -3487,7 +3493,7 @@ button:focus {
   margin-top: 20px;
   display: inline-block;
   color: #ffffff;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   font-size: 17px;
   padding: 15px 60px;
 }
@@ -3515,7 +3521,7 @@ button:focus {
   text-align: center;
   font-size: 35px;
   margin-bottom: 50px;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 700;
@@ -3562,7 +3568,7 @@ button:focus {
 }
 
 .checkout-item .checkout-one .form-group .form-control:focus {
-  border: 1px solid #ffbe00;
+  border: 1px solid var(--theme-color);
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -3655,7 +3661,7 @@ button:focus {
 }
 
 .checkout-item .checkout-two ul li a:hover {
-  border: 1px solid #ffbe00;
+  border: 1px solid var(--theme-color);
 }
 
 /*-- End Checkout --*/
@@ -3723,7 +3729,7 @@ button:focus {
 .coming-item ul li a {
   display: block;
   color: #ffffff;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   width: 35px;
   height: 35px;
   line-height: 39px;
@@ -3894,7 +3900,7 @@ button:focus {
 .error-item a {
   display: inline-block;
   color: #ffffff;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
   border-radius: 10px;
   padding: 16px 40px;
   margin-top: 70px;
@@ -3944,7 +3950,7 @@ button:focus {
 }
 
 .contact-location-area .location-item:hover, .contact-location-area .location-item.active {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .contact-location-area .location-item:hover img, .contact-location-area .location-item.active img {
@@ -3986,7 +3992,7 @@ button:focus {
   margin-right: auto;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .contact-location-area .location-item ul {
@@ -4119,7 +4125,7 @@ button:focus {
 }
 
 .contact-form-area .contact-item .contact-social ul li a:hover {
-  background-color: #ffbe00;
+  background-color: var(--theme-color);
 }
 
 .contact-form-area .contact-item .list-unstyled {
@@ -4179,7 +4185,7 @@ button:focus {
 .book-table-area .form-group .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #ffbe00;
+  border: 1px solid var(--theme-color);
 }
 
 .book-table-area .form-group textarea {
@@ -4251,7 +4257,7 @@ button:focus {
 }
 
 .back-to-top-btn i {
-  background: #ffbe00;
+  background: var(--theme-color);
   color: #ffffff;
   height: 50px;
   width: 50px;
@@ -4263,8 +4269,8 @@ button:focus {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   margin-right: 28px;
-  -webkit-box-shadow: 0px 0px 14px 0px #ffbe00;
-          box-shadow: 0px 0px 14px 0px #ffbe00;
+  -webkit-box-shadow: 0px 0px 14px 0px var(--theme-color);
+          box-shadow: 0px 0px 14px 0px var(--theme-color);
 }
 
 .back-to-top-btn i:hover {
