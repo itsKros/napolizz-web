@@ -35,7 +35,7 @@
                         <tbody>
                             <tr>
                                 <th class="table-item" scope="row">
-                                    <img src="assets/img/home-two/banner/food4.png" alt="Menu">
+                                    <img src="/assets/img/home-two/banner/food4.png" alt="Menu">
                                 </th>
                                 <td>Burger</td>
                                 <td>$10.00</td>
