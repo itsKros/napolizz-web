@@ -13,6 +13,8 @@
         <!-- Owl Carousel -->
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
         <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!-- Slide Out Panel -->
+        <link rel="stylesheet" href="assets/slide-out/slide-out-panel.min.css">
         <!-- Slick Slider CSS -->
         <link rel="stylesheet" href="assets/css/slick.css">
         <link rel="stylesheet" href="assets/css/slick-theme.css">
@@ -40,6 +42,12 @@
             </div>
         </div>
         <!-- End Preloader -->
+
+        <div id="slide-out-panel" class="slide-out-panel">
+            <header>jQueryScript</header>
+            <section><p class="lead mb-2">Simple jQuery Plugin to add a sliding out panel.</p><img src="https://source.unsplash.com/zocOqUNH400/400x250"></section>
+            <footer>Footer</footer>
+        </div>
 
         <!-- Start Navbar Area -->
         <div class="navbar-area">

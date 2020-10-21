@@ -151,6 +151,8 @@
         <script src="assets/js/contact-form-script.js"></script>
         <!-- Magnific Popup JS -->
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Slide Out Panel JS -->
+        <script src="assets/slide-out/slide-out-panel.min.js"></script>
         <!-- Custom JS -->
         <script src="assets/js/custom.js"></script>
     </body>
