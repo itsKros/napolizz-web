@@ -1,3 +1,52 @@
+#loginPop {paddig-right:0px !important;}
+#loginPop .modal-dialog {
+    max-width: 70%;
+}
+#loginPop .checkout-item {border:0;margin: 0;}
+#loginPop .checkout-item h2 {
+    font-size: 25px;
+    padding: 9px 0;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+#loginPop .checkout-item .checkout-one .form-group { margin-bottom: 15px;}
+
+
+#cartView.modal.right .modal-content::-webkit-scrollbar {width: 4px;}
+#cartView.modal.right .modal-content::-webkit-scrollbar-track {border-radius: 10px;background-color: #F5F5F5;}
+#cartView.modal.right .modal-content::-webkit-scrollbar-thumb{border-radius: 10px;background-color: #797979;}
+
+#cartView .modal-content {border-right: 2px solid white;}
+#cartView .modal-body {padding: 80px 15px 80px;}
+#cartView .modal-header h5{font-family: 'Poppins', sans-serif;}
+#cartView .modal-header h5 .badge{background-color: var(--theme-color);}
+#cartView .modal-header-fixed {position: fixed;top: 0;width: 100%;background: #fff;border-radius: 0;z-index: 3;}
+#cartView .modal-footer-fixed {z-index: 3;}
+#cartView .modal-footer .cmn-btn{width:100%}
+
+.mcart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    border-bottom: 1px solid #0000000f;
+}
+.modal-body > .mcart-item:last-child {
+    border: 0;
+    margin-bottom: 0;
+}
+.mcart-item .item-thumb {min-width: 45px;}
+.mcart-item .item-thumb img {width: 100%;}
+.mcart-item .item-desc {width: 60%;padding: 0 8px;}
+.mcart-item .item-desc p {font-size: 14px;white-space: nowrap;width: 100%;overflow: hidden;text-overflow: ellipsis;margin-bottom: 10px;line-height: 1;}
+.mcart-item .item-desc input {font-size: 12px;height: auto;padding: 0;}
+.mcart-item .item-desc .input-group {width: 60%;}
+.mcart-item .item-price {text-align: right;}
+.mcart-item .item-price p {line-height: 1;font-size: 13px;color: #1c8a78;font-weight: 600;margin-bottom: 7px;}
+.mcart-item .item-price a i{color:var(--theme-color);font-size: 25px; }
+.mcart-item .item-desc button {padding: 0;min-width: 1.5rem !important;background: var(--theme-color);border-color: var(--theme-color);color: #ffff;line-height: 0.5;}
+
 .navbar-brand img {width: 135px;}
 .main-nav {box-shadow: 1px 6px 12px rgb(0 0 0 / 0.09);background: white;position: relative;}
 

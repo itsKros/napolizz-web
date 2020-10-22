@@ -221,5 +221,18 @@ jQuery(function ($) {
 		return false;
 	});
 
+	
+	$("input[type='number']").inputSpinner();
+	
+	// $(document).ready(function(){
+	// 	setTimeout(function(){ 
+	// 		$("#cartView .modal-content").niceScroll("#cartView .modal-body",{
+	// 			autohidemode: false
+	// 		});
+	// 	 }, 500);
+		
+	// });
+
 
 }(jQuery));
+
