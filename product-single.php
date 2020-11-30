@@ -26,7 +26,7 @@
         <section class="collection-area" id="comboSinglePage">
             <div class="container">
                 <div id="Container" class="row">
-                    <div class="col-lg-5 mix">
+                    <div class="col-lg-12 mix">
                         <div class="collection-item">
                             <div class="collection-top">
                                 <img src="assets/img/home-one/collection/1.jpg" alt="Collection">
@@ -40,13 +40,13 @@
                                 </span>
                                 </p>
                                 <p class="desc">Mozzarella, Tomato, Spicy Honey BBQ Chicken, Red Onions and Malted Cheese.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-7 mix"> 
-                        <form>
+
+
+
+                                <!-- Addons -->
+
+                                <form>
                             <div class="row">
                                 <!-- Addons starts -->
                                 <div class="col-md-4">
@@ -157,7 +157,13 @@
                                 </div>
                             </div>
                         </form>
+                                <!-- Addons End -->
+                            </div>
+                        </div>
+
                     </div>
+
+                
 
                 </div>
                 
