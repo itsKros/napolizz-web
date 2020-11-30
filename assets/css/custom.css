@@ -92,6 +92,18 @@
 .checkout-item .checkout-one.login .form-group .form-control {width: 100%;}
 .checkout-item .checkout-one.create .form-group .form-control {width: 100%;}
 
+
+.c .page-title-item:before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 60px;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+    background-color: var(--theme-color);
+}
+
 .form-group.number{display: flex;}
 .form-group.number span{margin-right: 7px;}
 .footer-item .footer-logo a.cmn-btn {display: inline-block;}
